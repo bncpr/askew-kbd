@@ -186,6 +186,12 @@
   (fp_line (start -14.3 -9.525) (end -14.3 9.525) (layer "Dwgs.User") (width 0.12) (tstamp e24ac3b4-513f-48bd-95b9-853a35a0c243))
   (fp_line (start 6 7) (end 7 7) (layer "Dwgs.User") (width 0.15) (tstamp e997523a-fcb6-4e18-87d4-30aa1060c760))
   (fp_line (start 14.275 -9.525) (end 14.275 9.525) (layer "Dwgs.User") (width 0.12) (tstamp fd32880e-59ab-43b6-997b-d89b2b3b4c48))
+  (fp_line (start 1.75 -7.75) (end -1.75 -3.25) (layer "Cmts.User") (width 0.12) (tstamp 55026714-552a-4b19-9560-cc5a86d1b590))
+  (fp_line (start 1.75 -3.25) (end -1.75 -7.75) (layer "Cmts.User") (width 0.12) (tstamp 5f8f10f6-2059-4f69-8618-53fec07bc7f3))
+  (fp_line (start 1.775 -3.275) (end -1.725 -3.275) (layer "Eco2.User") (width 0.15) (tstamp 5781007a-a49e-417b-8b7d-645b85b0f4d0))
+  (fp_line (start -1.725 -7.775) (end 1.775 -7.775) (layer "Eco2.User") (width 0.15) (tstamp 9e9c2133-c4b1-4106-aeb7-7d53e82b2458))
+  (fp_line (start 1.775 -3.275) (end 1.775 -7.775) (layer "Eco2.User") (width 0.15) (tstamp ac596b4a-a2a3-4a7d-ad3d-05adfd2f482e))
+  (fp_line (start -1.725 -3.275) (end -1.725 -7.775) (layer "Eco2.User") (width 0.15) (tstamp ee607201-c916-46f5-ad03-07109a4558b1))
   (pad "" np_thru_hole circle (at 5 3.7 270) (size 3 3) (drill 3) (layers *.Mask "F.Cu" "In1.Cu" "B.Cu") (tstamp 00fa812e-f664-41ed-8e9d-de1e29003078))
   (pad "" np_thru_hole circle (at -5.22 -4.2 180) (size 1 1) (drill 1) (layers *.Mask "F.Cu" "In1.Cu" "B.Cu") (tstamp 1661bd19-e7d1-492c-84ae-f7429f837eb0))
   (pad "" np_thru_hole circle (at 0 5.9 90) (size 3 3) (drill 3) (layers *.Mask "F.Cu" "In1.Cu" "B.Cu") (tstamp 502f1370-b5c1-42ba-9247-79c7ebcfa5e6))
@@ -198,4 +204,14 @@
   (pad "1" smd rect (at -7.8 3.7 180) (size 1.6 2.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 878bdb55-e188-4b5e-8539-56a5d55bb3f6))
   (pad "2" smd rect (at -2.8 5.9 180) (size 1.6 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6af1b8bf-5532-4268-8a1c-9420789ab938))
   (pad "2" smd rect (at 2.8 5.9 180) (size 1.6 2.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp c8db775e-2a14-46d7-85a8-aeffda6b59ba))
+  (group "" (id f3f2c76f-c01d-40b6-95bb-e3cb33d4f204)
+    (members
+      55026714-552a-4b19-9560-cc5a86d1b590
+      5781007a-a49e-417b-8b7d-645b85b0f4d0
+      5f8f10f6-2059-4f69-8618-53fec07bc7f3
+      9e9c2133-c4b1-4106-aeb7-7d53e82b2458
+      ac596b4a-a2a3-4a7d-ad3d-05adfd2f482e
+      ee607201-c916-46f5-ad03-07109a4558b1
+    )
+  )
 )
