@@ -13,6 +13,7 @@
 *.kicad_sch-bak
 *.sch-bak
 *~
+~*
 _autosave-*
 *.tmp
 *-save.pro
