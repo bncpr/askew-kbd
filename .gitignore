@@ -36,3 +36,5 @@ gerber/
 
 *.zip
 *.pdf
+
+*.FCBak
